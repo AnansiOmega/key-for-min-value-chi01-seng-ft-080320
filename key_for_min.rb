@@ -3,7 +3,7 @@
 def key_for_min_value(name_hash)
   if name_hash == {}
     nil
-  end
+  else
 name_a = name_hash.to_a
   
   d_value= 1000
