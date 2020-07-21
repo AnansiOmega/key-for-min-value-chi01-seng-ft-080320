@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
         d_key = i[0]
       elsif i === {} 
       return nil
+    end
 
    end
 
