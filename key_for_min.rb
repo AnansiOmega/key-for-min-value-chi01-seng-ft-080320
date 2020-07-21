@@ -12,4 +12,4 @@ array.each do |num|
 end
 end
 end
-bind.pry 
+binding.pry 
