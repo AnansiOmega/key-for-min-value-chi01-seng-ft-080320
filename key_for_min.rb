@@ -2,12 +2,27 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  if name_hash == {}
-    NIL
-    elsif
-  name_hash.reduce{ |f, s| f.last > s.last ? s : f }.first
-end
-end
+  name_a = name_hash.to_a
+
+  d_value= 1000
+  d_key= 0
+
+  name_a.each do |i|
+    if name_hash == {}
+      NIL
+       elsif i[1] < d_value
+        d_value = i[1]
+        d_key = i[0]
+
+    end
+
+   end
+
+  return d_key
+
+end  
+
+
 
 #name_hash.inject do |key,value|
  #smallest = 1000
