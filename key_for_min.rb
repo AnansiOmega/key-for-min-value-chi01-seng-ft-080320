@@ -8,4 +8,6 @@ name_hash.each do |key,value|
     value < smallest
     value = smallest
     end
+name_hash.find do |key, value|
+  key 
 end
