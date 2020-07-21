@@ -6,6 +6,7 @@ name_hash.each_with_index do |key,value|
  smallest = 1000
 if  value < smallest
     value = smallest
+    smallest = key
 end
 end
 end
