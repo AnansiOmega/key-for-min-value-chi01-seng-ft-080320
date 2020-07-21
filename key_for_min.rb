@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-name_hash.reduce do |key,value|
+name_hash.inject do |key,value|
  smallest = 1000
 if  value < smallest
     value = smallest
