@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
 array = name_hash.to_a
 smallest = 1000
 array.each do |num|
-  if num[1][0] < smallest
+  if num[0][0] < smallest
     smallest = num
     
 end
