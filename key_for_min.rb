@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
 name_hash.inject do |key,value|
  smallest = 1000
 if  value[1] < smallest
-    value = smallest
+    smallest = value
    
 end
 value
