@@ -8,6 +8,6 @@ if  value[1] < smallest
     value = smallest
    
 end
-value[0]
+value
 end
 end
