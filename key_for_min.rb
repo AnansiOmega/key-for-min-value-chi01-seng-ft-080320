@@ -6,7 +6,7 @@ smallest = 1000
 
 array.each do |num|
   number = num[0][1].to_i
-  if number[0][1] < smallest
+  if number[1] < smallest
     smallest = num
     
 end
