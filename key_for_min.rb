@@ -3,6 +3,7 @@
 require 'pry'
 def key_for_min_value(name_hash)
  
+name_hash.to_a
 array = name_hash.to_a
 smallest = 1000
 binding.pry
