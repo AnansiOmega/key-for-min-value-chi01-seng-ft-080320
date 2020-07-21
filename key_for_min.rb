@@ -10,6 +10,6 @@ if  v[index] < smallest
    smallest = v
    index += 1 
 end
-value
+v
 end
 end
