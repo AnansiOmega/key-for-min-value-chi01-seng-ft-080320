@@ -4,7 +4,7 @@ def key_for_min_value(name_hash)
 array = name_hash.to_a
 smallest = 1000
 
-array.each do |key,num|
+array.each do |num|
   if num < smallest
     smallest = num
     
