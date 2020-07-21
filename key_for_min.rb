@@ -7,6 +7,5 @@ name_hash.each do |key,value|
   
     value < smallest
     value = smallest
-    value
-end
+    end
 end
