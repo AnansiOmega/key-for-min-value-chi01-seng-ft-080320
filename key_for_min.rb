@@ -10,7 +10,7 @@ if num < smallest
   smallest = num 
 
 end
-
+end
 end
 
 
