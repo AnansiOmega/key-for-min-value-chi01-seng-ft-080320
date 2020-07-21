@@ -9,4 +9,3 @@ name_hash.each_slice do |key,value|
     value = smallest
     end
 end
-end
