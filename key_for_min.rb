@@ -8,6 +8,6 @@ if  value[1] < smallest
     smallest = value
    
 end
-value[key]
+value
 end
 end
