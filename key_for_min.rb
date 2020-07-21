@@ -8,7 +8,6 @@ if  value[1] < smallest
     value = smallest
    
 end
-smallest = key
-key
+value[0]
 end
 end
