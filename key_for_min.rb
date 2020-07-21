@@ -5,8 +5,8 @@ array = name_hash.to_a
 smallest = 1000
 
 array.each do |num|
-  num[0][1].to_i
-  if num[0][1] < smallest
+  number = num[0][1].to_i
+  if number < smallest
     smallest = num
     
 end
