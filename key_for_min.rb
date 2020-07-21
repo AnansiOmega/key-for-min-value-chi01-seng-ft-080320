@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
 name_hash.keys_to_a
+name_hash.vlues_to_a
 end
 end
 
