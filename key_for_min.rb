@@ -9,7 +9,6 @@ if  value < smallest
    
 end
 smallest = key
-
-end
 key
+end
 end
